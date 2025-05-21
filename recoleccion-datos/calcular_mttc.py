@@ -2,10 +2,8 @@ import requests
 import pandas as pd
 from datetime import datetime
 
-# TOKEN PERSONAL (opcional, para evitar límites)
 headers = {
     "Accept": "application/vnd.github.v3+json",
-    # "Authorization": "token TU_TOKEN_AQUI"  # Descomenta y coloca tu token aquí si tienes uno
 }
 
 repo = "facebook/react"
